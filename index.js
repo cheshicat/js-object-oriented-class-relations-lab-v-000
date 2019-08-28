@@ -43,4 +43,10 @@ class Trip {
     })
   }
 
+  passenger(){
+    return store.passengers.find(passenger => {
+      return this.passengerId === passenger.id;
+    })
+  }
+
 }
