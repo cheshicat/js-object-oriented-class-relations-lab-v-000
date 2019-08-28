@@ -22,7 +22,7 @@ class Passenger {
   }
 }
 
-let tripi=Id = 0;
+let tripId = 0;
 
 class Trip {
   constructor(driver, passenger) {
