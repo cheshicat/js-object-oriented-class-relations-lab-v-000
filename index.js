@@ -23,6 +23,5 @@ class Passenger {
 }
 
 class Trip {
-  store.trips.push(this);
 
 }
