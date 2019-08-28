@@ -37,10 +37,4 @@ class Trip {
     store.trips.push(this);
   }
 
-  driver() {
-    return store.drivers.find(driver => {
-      return this.driverId === driver.id;
-  })
-
-
 }
