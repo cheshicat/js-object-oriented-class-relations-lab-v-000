@@ -22,11 +22,18 @@ class Passenger {
   }
 }
 
-let id = 0;
+let tripi=Id = 0;
 
 class Trip {
   constructor(driver, passenger) {
-    this.id = ++id;
+    this.id = ++tripId;
+    if(driver){
+      this.driverId = driver.id
+    }
+    if(passenger){
+      this.passengerId = passenger.id
+    }
+
 
   }
 
