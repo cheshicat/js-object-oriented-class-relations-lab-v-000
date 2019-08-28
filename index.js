@@ -36,14 +36,5 @@ class Trip {
 
     store.trips.push(this);
   }
-  setDriver(driver) {
-    this.driverId = driver.id;
-  }
-  driver () {
-    return store.drivers.find(
-      function(driver) {
-        return driver.id === this.driverId;
-      }.bind(this);
-    );
-  }
+
 }
