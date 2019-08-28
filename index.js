@@ -20,5 +20,4 @@ class Passenger {
 
     store.passengers.push(this);
   }
-
 }
